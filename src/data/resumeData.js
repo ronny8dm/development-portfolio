@@ -8,7 +8,7 @@ export const main = {
   phone: "+44 7853 353 755",
   website: "https://github.com/ronny8dm",
   resumedownload:
-    "https://drive.google.com/file/d/1E5JCbrxpPOA_Mr0UkffcB5lpWlNqoWcg/view?usp=sharing",
+    "https://drive.google.com/file/d/1l9Y2suOLAaSCxM5XDZcNb0SvlahkOID1/view?usp=sharing",
   social: [
     {
       name: "linkedin",
@@ -45,7 +45,7 @@ export const about = {
   image: "img/profilepic.jpg",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
-    "https://drive.google.com/file/d/1E5JCbrxpPOA_Mr0UkffcB5lpWlNqoWcg/view?usp=sharing",
+    "https://drive.google.com/file/d/1l9Y2suOLAaSCxM5XDZcNb0SvlahkOID1/view?usp=sharing",
 };
 
 export const works = [
