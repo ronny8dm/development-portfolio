@@ -153,12 +153,7 @@ export const skills = {
 };
 
 export const projects = [
-  {
-    title: "Business website",
-    category: "Website",
-    image: "business2.png",
-    url: "https://megakit-web.netlify.app",
-  }
+  
 ];
 
 export const testimonials = [
