@@ -149,11 +149,48 @@ export const skills = {
         "blockchain",
       ],
     },
-  ],
-};
+  ]
+}
 
 export const projects = [
-  
+  {
+    "title": "Kilic & Kilic - Solicitors",
+    "category": "Website",
+    "image": "Kilic_Solicitors.png",
+    "url": "http://kilicandkilic.com/"
+
+  },
+  {
+    "title": "Applemanlegal",
+    "category": "Website",
+    "image": "Applemanlegal.png",
+    "url": "http://kilicandkilic.com/"
+  },
+  {
+    "title": "TaxScouts",
+    "category": "Website",
+    "image": "TaxScouts.png",
+    "url": "https://taxscouts.com/"
+  },
+  {
+    "title": "Neo Accounting",
+    "category": "Website",
+    "image": "Neo_Accounting.png",
+    "url": "https://neoaccounting.co.uk/"
+  },
+  {
+    "title": "Olive Tree",
+    "category": "Website",
+    "image": "olive_Tree.png",
+    "url": "https://olive-tree-landscaping.co.uk/"
+  },
+  {
+    "title": "NLG Landscaping",
+    "category": "Website",
+    "image": "nlg_Landscaping.png",
+    "url": "https://www.nlglandscaping.co.uk/"
+  },
+
 ];
 
 export const testimonials = [
