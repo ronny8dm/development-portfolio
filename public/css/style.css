@@ -37,6 +37,7 @@
 
 /* 1.1 General */
 
+@import 'primeflex/primeflex.scss';
 @import url("bootstrap.min.css");
 @import url("magnific-popup.css");
 @import url("owl.carousel.min.css");

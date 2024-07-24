@@ -1,14 +1,15 @@
 export const main = {
-  name: "Rhonny Diaz",
+  name: "Rhonny D",
+  firstName:"Rhonny",
   occupation: "Software Engineer",
   description: "I'm a Software Engineer",
   image: "profilepic.jpg",
-  bio: "As the founder of KS Devware (software development company), I am Rhonny Diaz. A young entrepreneur. With nearly 4 years of experience, I’m a software engineer (full-stack web & mobile) and UI/UX designer. Worked as a senior lead full-stack developer at OpticEngine had been a rewarding experience. Moreover, I work on a few startups aimed at the Bangladesh, Russian, Chinese, American, and Dutch markets. Among the companies and entrepreneurs I have worked with are DP-Websolutions, Ganlax group, Hyvinvoivin, Happy-Dairy, Arrtal, FN Softwares & institute, and many more. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
+  bio: "I'm Rhonny. With over 5 years of experience, I’m a software engineer (full-stack web & mobile) and UI/UX designer. Worked as a senior lead full-stack developer at OpticEngine had been a rewarding experience. Moreover, I work on a few startups aimed at the Bangladesh, Russian, Chinese, American, and Dutch markets. Among the companies and entrepreneurs I have worked with are DP-Websolutions, Ganlax group, Hyvinvoivin, Happy-Dairy, Arrtal, FN Softwares & institute, and many more. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
   email: "ronnydiaz23@gmail.com",
   phone: "+44 7853 353 755",
   website: "https://github.com/ronny8dm",
   resumedownload:
-    "https://drive.google.com/file/d/1l9Y2suOLAaSCxM5XDZcNb0SvlahkOID1/view?usp=sharing",
+    "https://drive.google.com/file/d/13Hz4vu3R6BP1AZn6clw6xZXOBnjde0ed/view?usp=sharing",
   social: [
     {
       name: "linkedin",

@@ -1,0 +1,16 @@
+@import 'primeflex/primeflex.scss';
+
+.mybutton {
+    @include styleclass('bg-blue-500 hover:bg-blue-600 border-round transition-colors transition-duration-150 p-3 border-none');
+}
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", "Monaco", "Inconsolata", "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: This at-rule isn't allowed in plain CSS.\a   \2577 \a 4 \2502      @include styleclass('bg-blue-500 hover:bg-blue-600 border-round transition-colors transition-duration-150 p-3 border-none');\d\a   \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   public\\css\\primeflex.css 4:5  root stylesheet";
+}
