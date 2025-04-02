@@ -19,15 +19,15 @@ function Skills({ skills, title, subtitle }) {
                                     </div>
                                 </div>
                                 <div className="mt-5 mt-lg-0 col-lg-5 offset-lg-1">
-                                    <h2 dangerouslySetInnerHTML={{ __html: title }}></h2>
-                                    <p className="mb-5" dangerouslySetInnerHTML={{ __html: subtitle }}></p>
+                                    <h2 className="text-white" dangerouslySetInnerHTML={{ __html: title }}></h2>
+                                    <p className="mb-5 text-white" dangerouslySetInnerHTML={{ __html: subtitle }}></p>
                                     {skills?.map(({ title, skills }) => (
-                                        <div className="exp_skills">
-                                            <h4>{title}</h4>
+                                        <div className="exp_skills text-white">
+                                            <h4 className="text-white">{title}</h4>
                                             <div className="mb-4 pt-2 skills_wrapper">
                                                 {skills?.map((skill) => (
                                                     <div className="skill-item">
-                                                        <h6 className="mt-0">{skill}</h6>
+                                                        <h6 className="mt-0 text-white">{skill}</h6>
                                                     </div>
                                                 ))}
                                             </div>

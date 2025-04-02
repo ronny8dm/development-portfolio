@@ -2,7 +2,7 @@ export const main = {
   name: "Rhonny D",
   firstName:"Rhonny",
   occupation: "Software Engineer",
-  description: "I'm a Software Engineer",
+  location: "London, UK",
   image: "profilepic.jpg",
   bio: "I'm Rhonny. With over 5 years of experience, I’m a software engineer (full-stack web & mobile) and UI/UX designer. Worked as a senior lead full-stack developer at OpticEngine had been a rewarding experience. Moreover, I work on a few startups aimed at the Bangladesh, Russian, Chinese, American, and Dutch markets. Among the companies and entrepreneurs I have worked with are DP-Websolutions, Ganlax group, Hyvinvoivin, Happy-Dairy, Arrtal, FN Softwares & institute, and many more. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
   email: "ronnydiaz23@gmail.com",
@@ -40,8 +40,8 @@ export const main = {
 };
 
 export const about = {
-  bio: "I am <span class='text-primary'>full stack developer</span> commited to<br /> make a change in the world",
-  ido: "<p>WEB DEVELOPMENT</p><p>APP DEVELOPMENT</p><p>UI/UX DESIGN</p><p>FRONT-END DEVELOPMENT</p><p>BACK-END DEVELOPMENT</p><p>FULL-STACK DEVELOPMENT</p>",
+  bio: "I'm a <span class='text-primary'>full stack software engineer</span> commited to<br /> make a change in the world",
+  ido: "<p>I’m currently based in the vibrant city of London, UK. I'm orignally from Caracas, Venezuela. In 2017, I moved to London, chasing my dream of becoming a software engineer, a dream fueled by a deep love for problem-solving and creating things that matter. Since then, I’ve been on an unstoppable journey, diving into online courses, crafting my own projects, and soaking up every opportunity to grow. </p> <p>I earned my Bachelor’s degree in Computer Science from London Metropolitan University, where I honed my skills and ignited my passion for building technology that makes a real impact. Whether it’s designing seamless user experiences or architecting robust systems, I’m driven by the belief that code can change the world, and I’m here to make that happen, one project at a time.</p>",
   years: 4,
   image: "img/profilepic.jpg",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
@@ -52,52 +52,32 @@ export const about = {
 export const works = [
   [
     {
-      company: "Restrepo consultant",
-      title: "Full-Stack Developer & UI/UX designer",
+      company: "Mylands",
+      title: "Full-Stack Web Developer",
       image: "img/behance.png",
-      years: "Mar 2021 - Jul 2021",
+      years: "April 2023 – December 2023",
       description:
-        "• Provided clerical support, addressing routine and special requirements. <br />• Responsible for testing applications and looking for bugs & monitoring website performance <br />• Responsible for application code and UI/UX design <br />• Built responsive custom WordPress themes from scratch also with DIVI theme <br />• Optimized company website for performance and Search Engine Optimization",
+        "• Assisted in creating and maintaining visually appealing and responsive website designs using Shopify's Liquid markup language, JavaScript, and CSS. <br />• Responsible for testing applications and looking for bugs & monitoring website performance <br />• Responsible for application code and UI/UX design <br />• Optimized company website for performance and SEO <br/>• Implemented and configured a variety of Shopify apps and extensions to enhance site functionality. <br />• Collaborated with cross-functional teams to gather and analyze requirements, ensuring alignment with business goals <br />• Participated in code reviews and provided constructive feedback to team members <br />• Worked closely with the design team to implement user-friendly interfaces and enhance user experience <br />• Assisted in troubleshooting and resolving technical issues related to website functionality and performance",
     },
     {
       company: "Roblanc ltd",
-      title: "intern Full-Stack Web Developer",
+      title: "Full-Stack Web Developer Self-Employed",
       image: "img/behance.png",
-      years: "June 2020 - October 2021",
+      years: "May 2019 – August 2021",
       description:
-        "• Built websites with React JS and node js as backend <br />• Designing web and mobile apps mockups using Figma <br />• Designed and built the User Interface of the mobile app with React-native <br />• Assist the backend developer on ongoing development projects <br />• Participating in all decision-making processes which includes the database design, tooling, deployment processes etc",
+        "• Founded Roblanc LTD, an e-commerce business focused on selling bicycles, and managed all aspects of the business for two years. <br />• Designed and developed a custom WordPress theme from scratch to create a user-friendly online store for bicycle sales. <br />• Configured and maintained the e-commerce platform, including product listings, payment gateway integration, and inventory management. <br />• Gained hands-on experience in web development, SEO, and digital marketing to promote the business and improve online visibility. <br />• Learned to troubleshoot technical issues, optimize website performance, and ensure a seamless user experience.",
     },
-    {
-      company: "FN Softwares & institute",
-      title: "Trainer & Full-Stack Developer",
-      image: "img/behance.png",
-      years: "Aug 20 - Present",
-      description:
-        "• Trained programming over 500+ students on 2 successful courses <br />• Developed beta version of 'eSomaz (a social media)' app, used by 20K+ active users (increased active user by 25%) <br />• Developed a VS Code Extension for 'eSomaz' which helped to connect programmers <br />• Worked as an adviser on decision-making processes • Motivated jr developers on programming & life ",
-    },
+    
   ],
-  [
-    {
-      company: "Ganlax Group",
-      title: "Web Developer",
-      image: "img/behance.png",
-      years: "May 20 - Present",
-      description:
-        "• Built the company website with custom WordPress themes from scratch <br />• Optimized company website for performance and Search Engine Optimization <br />• Developed Custom Post Types and created custom fields with ACF plugins <br />• Sliced up design assets from Photoshop files when building custom themes <br />• Performed maintenance tasks on pre-existing sites using the Infinite WP dashboard, such as updating plugins, ensuring backups are running, and running security scans",
-    },
-  ],
+  
 ];
 
 export const skills = {
   title:
-    "I'm working to create an impact <span class='text-primary'>globally</span>",
+    "<span class='text-primary'>Technologies</span> under my belt",
   subtitle:
-    "I’m passionate about the local tech community and relationship building – my approach would suit anyone looking for a personal and professional to either help with company growth or innovate with new ideas",
+    "These are some of the technologies that I have used for my projects over the years",
   skills: [
-    {
-      title: "Ninja at",
-      skills: ["JavaScript", "React JS", "React Native", "Node JS"],
-    },
     {
       title: "Front-end",
       skills: [
@@ -105,31 +85,28 @@ export const skills = {
         "React JS",
         "Next JS",
         "HTML/CSS",
-        "SCSS",
-        "UI/UX Design",
         "Jquery",
-        "Redux",
       ],
     },
     {
       title: "Back-end",
-      skills: ["Node JS", "Express JS", "React Native", "Rest API", "PHP"],
+      skills: ["Node JS", "Express JS", "Python", "Rest API", "Java", "PHP"],
     },
     {
       title: "Database",
-      skills: ["MySQL", "MongoDB", "Firebase", "redis"],
+      skills: ["MySQL", "MongoDB", "Firebase", "PostgreSQL"],
     },
     {
       title: "App development",
-      skills: ["React Native"],
+      skills: ["React Native", "Flutter", "Kotlin"],
     },
     {
       title: "Payment",
-      skills: ["Stripe", "Paypal", "SslCommerz", "Bkash"],
+      skills: ["Stripe", "Paypal", "lemon squeezy"],
     },
     {
       title: "Cloud",
-      skills: ["Google", "AWS", "Digital ocean", "Heroku", "Vercel"],
+      skills: ["Google", "AWS", "Heroku", "Vercel"],
     },
     {
       title: "Libraries",
@@ -140,14 +117,12 @@ export const skills = {
       skills: [
         "Git",
         "GitHub",
-        "PWA",
-        "PWA",
         "Figma",
         "AJAX",
         "WordPress",
-        "Google Map",
+        "Shopify",
         "Mapbox",
-        "blockchain",
+        "LLM",
       ],
     },
   ]

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Masthead({ description, firstName }) {
+function Masthead({ location, firstName }) {
     return (
         <>
             <section id="home"
@@ -11,9 +11,9 @@ function Masthead({ description, firstName }) {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6 col-xl-5">
-                                    <div className="mb-2" dangerouslySetInnerHTML={{__html: description}}></div>
+                                    <div className="mb-2" dangerouslySetInnerHTML={{__html: location}}></div>
                                     <h1 className="text-white hero_heading"><span
-                                        className="text-primary text-typed a-typed a-typed-about">Hey,</span> I'm {firstName}</h1>
+                                        className="text-primary text-typed a-typed a-typed-about">Welcome,</span> I'm {firstName}</h1>
                                     <div className="line"></div>
                                 </div>
                             </div>

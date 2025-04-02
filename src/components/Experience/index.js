@@ -4,7 +4,7 @@ function Experience({ works }) {
         <>
             <section id="experience"
                 className="navbar-is-white text-white section pp-scrollable d-flex align-items-center position-absolute"
-                style={{ backgroundImage: "url('img/bg/experience.jpg')" }}>
+                >
                 <div className="intro">
                     <div className="scroll-wrap">
                         <div className="container">
@@ -15,7 +15,6 @@ function Experience({ works }) {
                                         <div key={index} className="experience-item">
                                             {item?.map((item, index) => (
                                                 <div key={index} className="row row-experience">
-                                                    {/* <div className="col-md-2"><a href=""><img loading="lazy" alt="" src={item?.image} /></a></div> */}
                                                     <div className="col-md-5 my-4">
                                                         <h3 className="my-0 text-white">{item?.title}</h3>
                                                         {item?.years} 

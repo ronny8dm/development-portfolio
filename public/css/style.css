@@ -13,7 +13,7 @@
 
   2.  Navbar
 
-      2.1 Navbar Desctop
+      2.1 Navbar desktop
       2.2 Navbar Mobile
       2.3 Navbar Fixed
 
@@ -309,7 +309,7 @@ label.error {
 .btn-white {
   background-color: #fff;
   border-color: #fff;
-  color: #343434;
+  color: #fff;
 }
 
 .btn-white:hover {
@@ -370,7 +370,7 @@ ion-icon {
 .icon-play:hover {
   border: 1px solid #63cf50;
   background-color: #63cf50;
-  color: #343434;
+  color: #fff;
 }
 
 .icon-play:hover:before {
@@ -520,7 +520,7 @@ ion-icon {
 .navbar a,
 .navbar a:hover,
 .navbar a:focus {
-  color: #343434;
+  color: #fff;
 }
 
 .toggler {
@@ -539,7 +539,7 @@ ion-icon {
 
 .toggler-icon {
   display: block;
-  border-top: 2px solid #000;
+  border-top: 2px solid #fff;
   margin-top: 0.5rem;
 }
 
@@ -578,8 +578,8 @@ ion-icon {
   margin-bottom: 0;
 }
 
-.navbar-desctop .phone,
-.navbar-desctop .email {
+.navbar-desktop .phone,
+.navbar-desktop .email {
   float: left;
   font-family: "Karla", sans-serif;
   position: relative;
@@ -640,9 +640,9 @@ ion-icon {
   color: #fff;
 }
 
-/* 2.1 Navbar Desctop */
+/* 2.1 Navbar desktop */
 
-.navbar-desctop:before {
+.navbar-desktop:before {
   content: "";
   position: absolute;
   top: 0;
@@ -653,7 +653,7 @@ ion-icon {
   transition: all 0.3s ease;
 }
 
-.navbar-nav-desctop {
+.navbar-nav-desktop {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -666,32 +666,32 @@ ion-icon {
   padding: 0;
 }
 
-.navbar-nav-desctop li a {
-  color: #343434;
+.navbar-nav-desktop li a {
+  color: #fff;
   transition: all 0.3s;
 }
 
-.navbar-nav-desctop li a:hover {
+.navbar-nav-desktop li a:hover {
   text-decoration: none;
 }
 
-.navbar-nav-desctop > li {
+.navbar-nav-desktop > li {
   position: relative;
   float: left;
   margin-right: 2.1rem;
 }
 
-.navbar-nav-desctop > li > a {
+.navbar-nav-desktop > li > a {
   display: flex;
   align-items: center;
 }
 
-.navbar-nav-desctop > li > .active,
-.navbar-nav-desctop > li:hover > a {
+.navbar-nav-desktop > li > .active,
+.navbar-nav-desktop > li:hover > a {
   color: #767676;
 }
 
-.navbar-nav-desctop li ul {
+.navbar-nav-desktop li ul {
   opacity: 0;
   visibility: hidden;
   padding: 0.7rem 1.8rem;
@@ -704,23 +704,23 @@ ion-icon {
   transition: all 0.3s linear;
 }
 
-.navbar-nav-desctop li:hover ul {
+.navbar-nav-desktop li:hover ul {
   top: 100%;
   opacity: 1;
   visibility: visible;
 }
 
-.navbar-nav-desctop li ul li {
+.navbar-nav-desktop li ul li {
   margin: 1rem 0;
 }
 
-.navbar-nav-desctop li ul li a {
+.navbar-nav-desktop li ul li a {
   opacity: 0.5;
   display: block;
 }
 
-.navbar-nav-desctop li ul .active a,
-.navbar-nav-desctop li ul li:hover a {
+.navbar-nav-desktop li ul .active a,
+.navbar-nav-desktop li ul li:hover a {
   opacity: 1;
 }
 
@@ -885,13 +885,13 @@ ion-icon {
   color: #fff;
 }
 
-.navbar-white:not(.fixed) .navbar-nav-desctop li a {
+.navbar-white:not(.fixed) .navbar-nav-desktop li a {
   color: #fff;
 }
 
-.navbar-white:not(.fixed) .navbar-nav-desctop > .active > a,
-.navbar-white:not(.fixed) .navbar-nav-desctop > li > .active,
-.navbar-white:not(.fixed) .navbar-nav-desctop > li:hover > a {
+.navbar-white:not(.fixed) .navbar-nav-desktop > .active > a,
+.navbar-white:not(.fixed) .navbar-nav-desktop > li > .active,
+.navbar-white:not(.fixed) .navbar-nav-desktop > li:hover > a {
   color: #23a592;
 }
 
@@ -957,7 +957,7 @@ h1 + .line {
 }
 
 .pp-section {
-  background: #fff;
+  background: #000;
   background-position: 50%;
   background-size: cover;
   padding: 8rem 0 6rem;
@@ -1068,7 +1068,7 @@ h1 + .line {
 
 .experience-text {
   display: inline-block;
-  color: #000;
+  color: #fff;
   line-height: 1.4;
   font-weight: 700;
 }
@@ -1134,6 +1134,7 @@ h1 + .line {
   top: 0;
   margin-top: -8.6rem;
   font-size: 6rem;
+  color: #fff;
 }
 
 .owl-prev {
