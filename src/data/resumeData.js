@@ -9,7 +9,7 @@ export const main = {
   phone: "+44 7853 353 755",
   website: "https://github.com/ronny8dm",
   resumedownload:
-    "https://drive.google.com/file/d/13Hz4vu3R6BP1AZn6clw6xZXOBnjde0ed/view?usp=sharing",
+    "https://drive.google.com/file/d/1uccxcBm3ZS_QepZCRM1DihuMD42MpCfm/view?usp=sharing",
   social: [
     {
       name: "linkedin",
