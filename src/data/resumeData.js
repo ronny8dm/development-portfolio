@@ -46,7 +46,7 @@ export const about = {
   image: "img/profilepic.jpg",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
-    "ttps://drive.google.com/file/d/1uccxcBm3ZS_QepZCRM1DihuMD42MpCfm/view?usp=sharing",
+    "https://drive.google.com/file/d/1uccxcBm3ZS_QepZCRM1DihuMD42MpCfm/view?usp=sharing",
 };
 
 export const works = [
