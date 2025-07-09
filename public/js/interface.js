@@ -32,7 +32,7 @@
         "home",
         "about",
         "experience",
-        "skills",
+        "blog",
         "projects",
         "partners",
         "testimonials",
