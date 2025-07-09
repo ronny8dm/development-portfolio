@@ -20,7 +20,7 @@ const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/ronny8dm",
         icon: Icons.github,
 
         navbar: true,
