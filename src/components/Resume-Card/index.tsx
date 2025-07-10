@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ChevronRightIcon } from "lucide-react";
+import { ChevronRightIcon, ExternalLink } from "lucide-react";
 import React from "react";
 
 interface ResumeCardProps {
@@ -38,6 +38,10 @@ export const ResumeCard = ({
     }
   };
 
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.stopPropagation(); 
+  };
+
   const renderDescription = () => {
     if (Array.isArray(description)) {
       return (
@@ -61,6 +65,7 @@ export const ResumeCard = ({
       >
         
         <div className="flex-shrink-0">
+
           <Avatar className="border size-12 bg-muted-background dark:bg-foreground">
             <AvatarImage
               src={logoUrl}
@@ -76,9 +81,22 @@ export const ResumeCard = ({
           <div className="flex items-center justify-between">
             <div className="min-w-0 flex-1">
               <div className="flex items-center gap-2">
-                <h3 className="font-semibold text-sm text-foreground">
-                  {title}
-                </h3>
+                {href ? (
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={handleLinkClick}
+                    className="flex items-center gap-1 font-semibold text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    {title}
+                    <ExternalLink className="size-3" />
+                  </a>
+                ) : (
+                  <h3 className="font-semibold text-sm text-foreground">
+                    {title}
+                  </h3>
+                )}
                 {badges && badges.length > 0 && (
                   <div className="flex gap-1">
                     {badges.map((badge, index) => (

@@ -31,12 +31,12 @@ function Experience() {
       href: "https://shopify.com",
       location: "Remote",
       title: "Full-Stack Web Developer Self-Employed",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/img/roblanc.jpg",
       start: "May 2019",
       end: "August 2021",
       description:
         [
-            "Assisted in creating and maintaining visually appealing and responsive website designs using Shopify's Liquid markup language, JavaScript, and CSS.",
+        "Fund a electric bike company and built a custom Shopify store from the ground up",
         "Responsible for testing applications and looking for bugs & monitoring website performance",
         "Responsible for application code and UI/UX design",
         "Optimized company website for performance and SEO",

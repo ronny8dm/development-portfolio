@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { Link, useParams } from "react-router-dom";
 import { PortableText } from '@portabletext/react';
 import Nav from '@/components/Nav/index.js';
-import { ExternalLink, Facebook, Instagram, Github } from 'lucide-react';
 import imageUrlBuilder from '@sanity/image-url'
 import { SiX, SiInstagram, SiGithub } from '@icons-pack/react-simple-icons';
 
@@ -42,7 +41,7 @@ interface BlogPostDetails {
   authorImage?: SanityAsset;
   instagram?: string;
   x?: string;
-  facebook?: string;
+  github?: string;
   bio?: string;
 }
 
@@ -156,7 +155,7 @@ function BlogDetails() {
             },
             "instagram": author->instagram,
             "x": author->x,
-            "facebook": author->facebook,
+            "github": author->github,
             "bio": author->bio,
           }`,
           { slug }
@@ -275,7 +274,7 @@ function BlogDetails() {
               </div>
               <div className='flex items-center gap-3 mt-2 text-xs text-muted-foreground'>
                 <a
-                href={post.instagram}
+                href={post.x}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-8 h-8 flex items-center justify-center border rounded-md text-muted-foreground hover:text-foreground hover:border-foreground transition-colors"
@@ -284,7 +283,7 @@ function BlogDetails() {
                     <SiX className='w-5' />
                 </a>
 
-                <a href={post.instagram}
+                <a href={post.github}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-8 h-8 flex items-center justify-center border rounded-md text-muted-foreground hover:text-foreground hover:border-foreground transition-colors"

@@ -18,6 +18,27 @@ const PROJECTS = [
     technologies: ["C#", ".NET 9","React", "2025"],
     href: "https://github.com/ronny8dm/google-scraper",
   },
+  {
+    title: "Directed By San",
+    description: "Static photography portfolio",
+    image: "/img/directedbysan.png", 
+    technologies: ["Static","React", "2025"],
+    href: "https://directedbyysan.hackneywebdesigns.com/",
+  },
+  {
+    title: "Serene",
+    description: "Wellness and meditation demo web app",
+    image: "/img/serene.png", 
+    technologies: ["Static","React", "2025"],
+    href: "https://serene.hackneywebdesigns.com/",
+  },
+  {
+    title: "GibFit30",
+    description: "A Gym membership demo web app",
+    image: "/img/gitbfit30.png", 
+    technologies: ["Static","React", "2025"],
+    href: "https://gibfit30.hackneywebdesigns.com/",
+  },
   
 ]
 
